@@ -81,7 +81,6 @@
  */
 
 // Get the field IDs from the template settings
-$company_logo_id = !empty($settings['company_logo']) ? $settings['company_logo'] : '';
 $event_name_field_id = !empty($settings['event_name']) ? $settings['event_name'] : 0;
 $registrant_name_field_id = !empty($settings['registrant_name']) ? $settings['registrant_name'] : 0;
 $num_attendees_field_id = !empty($settings['num_attendees']) ? $settings['num_attendees'] : 0;
