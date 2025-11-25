@@ -43,20 +43,6 @@ class Event_Ticket extends Helper_Abstract_Config_Settings implements Helper_Int
                     'desc' => 'Enter the Field ID for the registrant\'s name.',
                     'std'  => '1',
                 ],
-                'registrant_email' => [
-                    'id'   => 'registrant_email',
-                    'name' => 'Registrant Email',
-                    'type' => 'text',
-                    'desc' => 'Enter the Field ID for the registrant\'s email.',
-                    'std'  => '2',
-                ],
-                'registrant_phone' => [
-                    'id'   => 'registrant_phone',
-                    'name' => 'Registrant Phone',
-                    'type' => 'text',
-                    'desc' => 'Enter the Field ID for the registrant\'s phone number.',
-                    'std'  => '3',
-                ],
                 'num_attendees' => [
                     'id'   => 'num_attendees',
                     'name' => 'Number of Attendees',
@@ -70,13 +56,6 @@ class Event_Ticket extends Helper_Abstract_Config_Settings implements Helper_Int
                     'type' => 'text',
                     'desc' => 'Enter the Field ID for the add-ons.',
                     'std'  => '23',
-                ],
-                'total_cost' => [
-                    'id'    => 'total_cost',
-                    'name'  => 'Total Cost',
-                    'type'  => 'text',
-                    'desc'  => 'Enter the Field ID for the total cost.',
-                    'std'   => '7',
                 ],
             ],
         ];
